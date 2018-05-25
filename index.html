@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Curiosity Rover Cams</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header__title">
+            <h1>Curiosity Rover Cams</h1>
+        </header>
+        <div class="container__sections">
+            <section class="list__cameras_types">
+                <ul>
+                    <li>
+                        <a data-id="FHAZ" onclick="getNASAImg(this)" href="#">Front Hazard Avoidance Camera</a>
+                    </li>
+                    <li>
+                        <a data-id="NAVCAM" onclick="getNASAImg(this)" href="#">Navigation Camera</a>
+                    </li>
+                    <li>
+                        <a data-id="MAST" onclick="getNASAImg(this)" href="#">Mast Camera</a>
+                    </li>
+                    <li>
+                        <a data-id="CHEMCAM" onclick="getNASAImg(this)" href="#">Chemistry and Camera Complex</a>
+                    </li>
+                    <li>
+                        <a data-id="MAHLI" onclick="getNASAImg(this)" href="#">Mars Hand Lens imager</a>
+                    </li>
+                    <li>
+                        <a data-id="MARDI" onclick="getNASAImg(this)" href="#">Mars Descent Imager</a>
+                    </li>
+                    <li>
+                        <a data-id="RHAZ" onclick="getNASAImg(this)" href="#">Rear Hazard Avoidance Camera</a>
+                    </li>
+                </ul>
+            </section>
+            <section id="list__images">
+                <div>Click an Item on the List to See Photos</div>
+            </section>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
